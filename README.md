@@ -8,7 +8,7 @@ certificate files.
 ## Setup
 
 The certificate files in `./ssl_certs` were created for `localhost`
-using [mkcert](https://github.com/FiloSottile/mkcert)
+using [mkcert](https://github.com/FiloSottile/mkcert).  
 To use them you just need to follow the steps in that README.md to install mkcert as a certificate authority on
 your machine locally.
 
