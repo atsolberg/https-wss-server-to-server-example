@@ -10,6 +10,6 @@ certificate files.
 The certificate files in `./ssl_certs` were created for `localhost`
 using [mkcert](https://github.com/FiloSottile/mkcert).  
 To use them you just need to follow the steps in that README.md to install mkcert as a certificate authority on
-your machine locally.
+your machine locally. It's bascially just `brew install mkcert` and then `mkcert -install`.
 
 Or you can drop in your own certificate files in `./ssl_certs`
