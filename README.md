@@ -13,3 +13,10 @@ To use them you just need to follow the steps in that README.md to install mkcer
 your machine locally. It's bascially just `brew install mkcert` and then `mkcert -install`.
 
 Or you can drop in your own certificate files in `./ssl_certs`
+
+## Running
+
+In two separate terminals, run `node app-server/server.js` to start the app server and `node dev-server/server.js`
+to run the dev server. Then visit `https://localhost:8001` and you should see `sending ping`,`pong` for the https
+requests and
+`wss message: "wss ping"` for the websocket messages.
